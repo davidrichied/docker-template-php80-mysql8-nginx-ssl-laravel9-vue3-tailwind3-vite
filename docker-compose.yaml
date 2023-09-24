@@ -8,7 +8,7 @@ services:
       dockerfile: phpapp.dockerfile
     working_dir: /var/www
     volumes:
-      - ./laravel:/var/www
+      - .:/var/www
 
   # Web Server
   webserver:
@@ -17,7 +17,7 @@ services:
       dockerfile: webserver.dockerfile
     working_dir: /var/www
     volumes:
-      - ./laravel:/var/www
+      - .:/var/www
     depends_on:
       - "phpapp"
     ports:
