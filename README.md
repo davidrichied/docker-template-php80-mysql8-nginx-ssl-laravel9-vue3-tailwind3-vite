@@ -34,20 +34,7 @@ docker compose up -d --build
 
 Set up Laravel.
 
-Save the laravel/.env.example to .env
-
-cd ~/Code/project/laravel
-
-cp .env.example .env
-
-Update the database variables.
-
-DB_DATABASE=dpmnsl
-
-DB_USERNAME=dev
-
-DB_PASSWORD=secret
-
+cd ~/Code/project
 
 Go into the phpapp container and install Laravel composer packages.
 
