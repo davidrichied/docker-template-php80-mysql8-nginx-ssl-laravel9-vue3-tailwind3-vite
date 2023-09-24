@@ -46,5 +46,12 @@ composer install
 
 php artisan key:generate
 
+Install NPM packages
+
+cd ~/Code/project
+
+npm install
+
+npm run dev
 
 
