@@ -8,7 +8,7 @@
         <div
             class="text-center text-white py-4"
         >
-            &#169; Website Turtle
+            &#169; Website
         </div>
     </div>
 </footer>

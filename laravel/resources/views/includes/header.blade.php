@@ -11,7 +11,7 @@
                         href="#"
                         class="text-lg relative z-50 font-bold tracking-widest text-gray-900 rounded-lg focus:outline-none focus:shadow-outline"
                     >
-                        Website Turtle
+                        Website
                     </a>
                     <svg
                         class="h-11 z-40 absolute -top-2 -left-9"
